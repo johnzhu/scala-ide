@@ -10,6 +10,7 @@ import scala.tools.eclipse.lexical.ScalaPartitionTokeniserTest;
 import scala.tools.eclipse.occurrences.OccurrencesFinderTest;
 import scala.tools.eclipse.sbtbuilder.NestedProjectsTest;
 import scala.tools.eclipse.sbtbuilder.OutputFoldersTest;
+import scala.tools.eclipse.sbtbuilder.ProjectDependenciesTest;
 import scala.tools.eclipse.sbtbuilder.SbtBuilderTest;
 import scala.tools.eclipse.sbtbuilder.TodoBuilderTest;
 import scala.tools.eclipse.semantic.ImplicitsHighlightingTest;
@@ -49,5 +50,6 @@ import org.junit.runners.Suite;
   ImplicitsHighlightingTest.class,
   ScalaJavaDepTest.class,
   NestedProjectsTest.class,
+  ProjectDependenciesTest.class,
 })
 class TestsSuite { }
